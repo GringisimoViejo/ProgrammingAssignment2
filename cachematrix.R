@@ -11,7 +11,7 @@
 ##
 ##   * makeCacheMatrix$make converts displays the matrix, converting it if need be back into a square
 ##       matrix
-##   * makeCacheMatrix$invert inverts the entered matrix
+##   * makeCacheMatrix$invert includes the functions of x$make but also inverts the entered matrix
  
 makeCacheMatrix <- function(x = matrix()) { 
     c <- NULL
